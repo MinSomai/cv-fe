@@ -1,0 +1,30 @@
+.swiper {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-button-custom {
+  color: #000;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-custom.prev {
+  z-index: 10;
+  left: 0px;
+}
+
+.swiper-button-custom.next {
+  z-index: 10;
+  right: 0px;
+}

@@ -1,0 +1,466 @@
+{
+  "common": {
+    "welcome": "Welcome to ReCV.ai",
+    "getStarted": "Get Started",
+    "tagline": "Get ready to own your future. Unlock your true calling. Ace your interviews with AI precision. Be the one they remember.",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "finish": "Finish",
+    "email": "Email",
+    "login": "Login"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "confirmPassword": "Confirm Password",
+    "loginPage": {
+      "title": "Welcome 👋",
+      "description": "Let's get you logged in.",
+      "forMe": "For me",
+      "forMyOrganization": "For my organization",
+      "emailLabel": "Email*",
+      "workEmailLabel": "Work Email*",
+      "emailPlaceholder": "Enter your email",
+      "workEmailPlaceholder": "Enter your work email",
+      "passwordLabel": "Password*",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPasswordLink": "Forgot Password",
+      "signIn": "Sign In",
+      "orLoginWith": "Or login with",
+      "noAccount": "Don't have an account?",
+      "register": "Register",
+      "loginError": "There was an error with the credentials provided. Please try again."
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Choose a new password to secure your account.",
+      "newPasswordLabel": "New Password*",
+      "newPasswordPlaceholder": "Create a new password",
+      "confirmNewPasswordLabel": "Confirm New Password*",
+      "confirmNewPasswordPlaceholder": "Confirm your new password",
+      "passwordChangedTitle": "Your password has been changed!",
+      "passwordChangedDescription": "You're all set with your new password. You can now use your new password to log into your account and continue where you left off."
+    },
+    "forgotPassword": {
+      "title": "Forgot Your Password?",
+      "description": "Enter your email and we'll send you a link to reset your password.",
+      "emailPlaceholder": "Enter your email",
+      "checkInboxTitle": "Check Your Inbox!",
+      "checkInboxDescription": "Open your inbox and click the link to reset your password.",
+      "checkSpamFolder": "(If you don't see it, check your spam or junk folder.)",
+      "didntGetEmail": "Didn't get the email? Click below to resend the link.",
+      "resendEmail": "Resend Email"
+    },
+    "entityWelcome": {
+      "welcomeAbroad": "Welcome abroad,",
+      "institutionName": "Institution Name",
+      "institutionNamePlaceholder": "Select or enter the name of your institution",
+      "institutionType": "Institution Type",
+      "institutionTypePlaceholder": "Select institution type",
+      "successfullyUpdated": "Successfully updated",
+      "successfullyCreated": "Successfully created"
+    },
+    "signup": {
+      "createAccountTitle": "Create your ReCV.ai account",
+      "createAccountDescription": "Your talent. Our science. Let's go.",
+      "forMe": "For me",
+      "forMyOrganization": "For my organization",
+      "fullNameLabel": "Full Name*",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailLabel": "Email*",
+      "workEmailLabel": "Work Email*",
+      "emailPlaceholder": "Enter your email",
+      "workEmailPlaceholder": "Enter your work email",
+      "passwordLabel": "Password*",
+      "createPasswordPlaceholder": "Create a password",
+      "passwordHint": "Must be at least 8 characters.",
+      "agreeToTerms": "I agree to the",
+      "termsOfUse": "Terms of use",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "createAccount": "Create account"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "interviews": "Interviews",
+    "consultations": "Consultations",
+    "searchForParticipant": "Search for a participant",
+    "enterParticipantFullName": "Enter paticipant's full name",
+    "emailPlaceholderExample": "you@gmail.com",
+    "selectOrCreateGroup": "Select or create a group",
+    "avgInterviewScore": "Avg Interview Score",
+    "avgInterviewTime": "Avg Interview Time",
+    "avgImprovementRate": "Avg Improvement Rate"
+  },
+  "interview": {
+    "title": "Interview Setup",
+    "create": "Create Interview",
+    "history": "Interview History",
+    "description": "Manage, track, and ace your interview sessions with ease.",
+    "start": "Start Interview",
+    "end": "End Session",
+    "thinking": "Thinking...",
+    "loadingInterview": "Loading interview...",
+    "sessionPreparing": "Please wait while your session is being prepared.",
+    "setup": {
+      "roleStep": {
+        "label": "Role",
+        "title": "Which <span>role</span> are you targeting?",
+        "description": ""
+      },
+      "levelStep": {
+        "label": "Level",
+        "title": "Which interview <span>level</span> would you like?",
+        "description": "The difficulty of the questions will vary based on the interview level you choose"
+      },
+      "questionsStep": {
+        "label": "Questions",
+        "title": "What <span>questions</span> would you like to focus on?",
+        "description": "Choose as many as you like"
+      },
+      "languageStep": {
+        "label": "Language",
+        "title": "Let's Set Your Interview <span>Language</span>!",
+        "description": "Choose the language you're most comfortable with for a smoother, more confident interview."
+      },
+      "interviewerStep": {
+        "label": "Interviewer",
+        "title": "We've matched you with <span>top interviewers</span>, pick one and let's rock!",
+        "description": ""
+      },
+      "selectLevel": "Please select one of the interview levels",
+      "selectQuestions": "Please select the interview questions",
+      "freeTrialExpired": "Your free trial has expired. Please upgrade your plan.",
+      "subscriptionExpired": "Your subscription has expired. Please renew your plan."
+    },
+    "startModal": {
+      "readyToShine": "Ready to Shine? Let's",
+      "getReadyForYour": "Get Ready for Your",
+      "setTheStage": "Set the Stage",
+      "careerConsultation": "Career Consultation",
+      "beforeWeDiveIn": "Before we dive in, let's make sure you're all set for a smooth interview",
+      "beforeWeBegin": "Before we begin, let's set you up for a smooth and productive session. Follow these quick tips to make the most of your consultation:",
+      "findQuietSpace": "Find a Quiet Space",
+      "minimizeDistractions": "Minimize Distractions",
+      "distractionFreeEnvironment": "Ensure you're in a distraction-free environment with no background noise.",
+      "check": "Check",
+      "optimize": "Optimize",
+      "yourLighting": "Your Lighting",
+      "wellLitRoom": "Make sure your room is well-lit so your face is clearly visible on camera.",
+      "letsStart": "Let's Start",
+      "startCareerConsultation": "Start my career consultation",
+      "goBack": "Go back"
+    },
+    "audioCamModal": {
+      "enableMicCamera": "Enable Your Mic & Camera",
+      "needAccess": "To start your interview, we need access to your microphone and camera. Click Allow to continue.",
+      "allow": "Allow",
+      "cancel": "Cancel"
+    },
+    "roleModal": {
+      "selectLevel": "Select a level",
+      "selectRole": "Select a role",
+      "yourRole": "Your role*",
+      "industry": "Industry*",
+      "jobDescriptionOptional": "Job Description (Optional)",
+      "enterDescription": "Enter a description...",
+      "companyInfoOptional": "Company Info (Optional)"
+    }
+  },
+  "careerCounselling": {
+    "title": "Career Pathfinder",
+    "historyTitle": "Career Path History",
+    "description": "Track your consultations & uncover personalized insights.",
+    "startConsultation": "Start a new consultation",
+    "create": "Create Consultation"
+  },
+  "history": {
+    "aiConsultant": "AI Consultant:",
+    "aiInterviewer": "AI Interviewer:",
+    "careerStage": "Career Stage:",
+    "highestLevelOfEducation": "Highest Level of Education:",
+    "recommendations": "Recommendations:",
+    "careerPathwaysMatch": "Career Pathways Match",
+    "level": "Level:",
+    "categories": "Categories:",
+    "interviewerAvatar": "Interviewer Avatar",
+    "retakeConsultation": "Retake Consultation",
+    "retakeInterview": "Retake Interview",
+    "continueToConsultation": "Continue to consultation",
+    "continueToInterview": "Continue to interview",
+    "viewReport": "View Report",
+    "report": "Report",
+    "regenerateReport": "Regenerate Report",
+    "organizationalDevelopmentConsultant": "Organizational Development Consultant",
+    "hrBusinessPartner": "HR Business Partner",
+    "learningDevelopmentManager": "Learning & Development Manager"
+  },
+  "careerPathwayRecommendations": {
+    "title": "Career Pathway Recommendations",
+    "match": "Match",
+    "whyThisFitsYou": "Why This Fits You",
+    "keyRequirements": "Key Requirements",
+    "marketOutlook": "Market Outlook",
+    "compensationRange": "Compensation Range",
+    "careerProgressionPath": "Career Progression Path",
+    "potentialChallenges": "Potential Challenges",
+    "nextSteps": "Next Steps",
+    "theoreticalAlignment": "Theoretical Alignment"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "plans": "Plans",
+    "password": "Password",
+    "myDetails": "My Details",
+    "myDetailsTab": {
+      "personalInfo": "Personal info",
+      "personalInfoDescription": "Update your photo and personal details.",
+      "fullName": "Full name",
+      "emailAddress": "Email address",
+      "phoneNumber": "Phone number",
+      "phoneNumberHint": "May be required for payment validation",
+      "websiteLanguage": "Website Language",
+      "interviewLanguage": "Interview Language",
+      "fileUploadDescription": "SVG, PNG, JPG or GIF (max. 800x400px)",
+      "saveChanges": "Save changes",
+      "userInfoUpdated": "User information updated",
+      "requestError": "Request runtime error"
+    },
+    "profileTab": {
+      "title": "Profile",
+      "description": "Adjust your details, goals and preferences to tailor your experience",
+      "status": "Status",
+      "statusDescription": "Define where you are in your career journey to tailor your experience",
+      "industry": "Industry",
+      "industryDescription": "Pick the industry you want to focus on for personalized practice",
+      "role": "Role",
+      "roleDescription": "Specify your target role to make sessions relevant",
+      "interviewChallenges": "Interview Challenges",
+      "interviewChallengesDescription": "Select areas to improve, like nerves, structure, or communication",
+      "profileUpdated": "Profile updated",
+      "saveChanges": "Save changes"
+    },
+    "passwordTab": {
+      "title": "Password",
+      "description": "Please enter your current password to change your password.",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "newPasswordHint": "Your new password must be more than 8 characters.",
+      "confirmNewPassword": "Confirm new password",
+      "updatePassword": "Update password",
+      "passwordChangedSuccess": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "whereLoggedIn": "Where you're logged in",
+      "securityAlert": "We'll alert you via {email} if there is any unusual activity on your account.",
+      "activeNow": "Active now"
+    },
+    "billingTab": {
+      "title": "Billing",
+      "description": "Manage your billing and payment details.",
+      "subscription": "Subscription",
+      "subscriptionDescription": "Manage your current plan details, or switch plans. Have questions? Contact",
+      "freePlan": "Free plan",
+      "plan": "plan",
+      "monthly": "Monthly",
+      "multiMonthly": "Multi Monthly",
+      "popularPlanDescription": "Our most popular plan for small teams.",
+      "per": "per",
+      "freeTrialFinished": "Free trial was finished on {date}.",
+      "currentlyTrainingUntil": "You are currently training until {date}.",
+      "planExpired": "Your plan was {status} on {date}.",
+      "planCancelled": "Your plan was {status} and will expire on {date}.",
+      "upgradeWarning": "Upgrading to a new plan will charge your plan immediately",
+      "cancelSubscription": "Cancel subscription",
+      "upgradePlan": "Upgrade plan",
+      "billingDetails": "Billing details",
+      "billingDetailsDescription": "View your upcoming bill and manage your payment method",
+      "paymentMethod": "Payment method",
+      "changePaymentMethod": "Change how you pay for your plan.",
+      "endingIn": "ending in",
+      "expiry": "Expiry",
+      "edit": "Edit",
+      "nextBillingDate": "Next billing date",
+      "planRenewsOn": "Your plan renews on {date}",
+      "billingAndInvoicing": "Billing and invoicing",
+      "billingDescription": "Pick an account plan that fits your workflow",
+      "expired": "expired",
+      "cancelled": "cancelled"
+    },
+    "plansTab": {
+      "choosePlan": "Choose your plan",
+      "choosePlanDescription": "Pick the subscription that fits your needs"
+    },
+    "profileSettings": {
+      "selectOrEnterIndustry": "Select or enter an industry",
+      "selectOrEnterRole": "Select or enter a role",
+      "level": "Level"
+    },
+    "billingPriceSettings": {
+      "plansOverview": "Plans Overview",
+      "planName": "Plan Name",
+      "price": "Price",
+      "interviewMinutes": "Interview Minutes",
+      "careerConsultation": "Career Consultation",
+      "notes": "Notes",
+      "importantNotes": "Important Notes",
+      "planIncludes": "Plan includes:",
+      "everythingFromExplorerPlus": "Everything from Explorer, plus:",
+      "everythingFromAchieverPlus": "Everything from Achiever, plus:",
+      "upgradeTo": "Upgrade to"
+    },
+    "notificationsTab": {
+      "title": "Notification settings",
+      "description": "We may still send you important notifications about your account outside of your notification settings.",
+      "notificationSettings": "Notification settings",
+      "notificationSettingsDescription": "Select when you'll be notified when the following changes occur.",
+      "interviewResultsAvailable": "Your interview results are available",
+      "summaryNotifications": "Summary notifications",
+      "summaryNotificationsDescription": "Select when you'll be notified when the following summaries or report are ready.",
+      "weeklySummary": "Weekly summary",
+      "monthlySummary": "Monthly summary",
+      "quarterlySummary": "Quarterly summary"
+    }
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "interviewSetup": "Interview Setup",
+    "careerCounselling": "Career Counselling",
+    "settings": "Settings",
+    "reports": "Reports",
+    "participants": "Participants",
+    "interviews": "Interviews",
+    "careerPathfinder": "Career Pathfinder"
+  },
+  "tables": {
+    "date": "Date",
+    "position": "Position",
+    "interviewer": "Interviewer",
+    "level": "Level",
+    "status": "Status",
+    "score": "Score",
+    "report": "Report",
+    "careerStage": "Career Stage",
+    "expert": "Expert",
+    "recommendations": "Recommendations",
+    "industry": "Industry",
+    "statuses": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started",
+      "failed": "Failed"
+    },
+    "levels": {
+      "newcomer": "Newcomer",
+      "risingStar": "Rising Star",
+      "expert": "Expert"
+    },
+    "categories": {
+      "standard": "Standard",
+      "behavioral": "Behavioral",
+      "leadership": "Leadership",
+      "situational": "Situational",
+      "salaryNegotiation": "Salary Negotiation",
+      "technical": "Technical"
+    },
+    "viewReport": "View Report",
+    "retryInterview": "Retry Interview",
+    "na": "N/A",
+    "reportFailedMessage": "It looks like the camera wasn't turned on, or no questions were answered.\nPlease try the interview again.",
+    "page": "Page",
+    "of": "of"
+  },
+  "onboarding": {
+    "chooseExperience": {
+      "title": "Let's get to know you",
+      "subtitle": "We need a few details to personalize your experience.",
+      "bodyTitle": "I am a..."
+    },
+    "careerIndustry": {
+      "title": "Define your career path",
+      "subtitle": "Share your career aspirations with us",
+      "bodyTitle": "The industry I'm interested in...",
+      "placeholder": "Select or enter an industry",
+      "errorSelect": "Please select or enter an industry",
+      "errorDropdown": "Please select an industry from the dropdown"
+    },
+    "careerRole": {
+      "title": "Define your career path",
+      "subtitle": "Share your career aspirations with us",
+      "bodyTitle": "The role I'm aiming for is...",
+      "levelPlaceholder": "Level",
+      "rolePlaceholder": "Select or create a role",
+      "errorLevel": "Please select or enter a level",
+      "errorRole": "Please select or enter a role"
+    },
+    "shareExperience": {
+      "title": "Share your experience",
+      "subtitle": "Tell us about your background to tailor your practice sessions",
+      "bodyTitle": "Upload your CV",
+      "maxSize": "Max size is 25MB",
+      "fileSizeExceeded": "File size exceeds 25MB limit",
+      "uploadFile": "Please upload a file.",
+      "uploadSuccess": "Successfully uploaded your CV!",
+      "somethingWentWrong": "Something went wrong",
+      "skipForNow": "Skip for now"
+    },
+    "interviewChallenge": {
+      "title": "Let's tackle your challenges",
+      "subtitle": "Help us understand your interview challenges and what you want to improve.",
+      "bodyTitle": "My interview challenges are..."
+    }
+  },
+  "errors": {
+    "requestRuntimeError": "Request runtime error",
+    "fileSizeExceeded": "File size exceeds 25MB limit",
+    "uploadFile": "Please upload a file.",
+    "somethingWentWrong": "Something went wrong",
+    "unknownError": "An unknown error occurred",
+    "quotaNotEnough": "Quota not enough",
+    "freeTrialExpired": "Your free trial has expired. Please upgrade your plan.",
+      "subscriptionExpired": "Your subscription has expired. Please renew your plan.",
+      "accessTokenError": "Error fetching access token",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "wrongUrl": "Wrong url",
+      "pageNotFound": "Page not found",
+    "pleaseLogin": "Please log in to continue",
+    "fillAllFields": "Please fill in all fields",
+    "acceptTerms": "Please accept the terms and conditions.",
+    "upgradePlan": "Please upgrade your plan to access this feature.",
+    "upgradePlanDetailedReports": "Upgrade plan to access detailed reports.",
+    "mediaDevicesNotSupported": "Media devices API not supported in this browser.",
+    "permissionError": "An unknown error occurred while requesting permissions.",
+    "invalidFileStructure": "Invalid file structure: No data found.",
+    "fileSizeExceeded5MB": "File size exceeds 5MB limit",
+    "tryAgain": "Something went wrong. Please try again.",
+    "sorrySomethingWentWrong": "Sorry! Something went wrong."
+  },
+  "dropdown": {
+    "createNewGroup": "Create new group"
+  },
+  "camera": {
+    "recordingStarted": "Recording and streaming started!",
+    "recordingStopped": "Recording stopped!"
+  }
+}
+
